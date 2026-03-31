@@ -1,0 +1,139 @@
+
+
+body{
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+*{ 
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+.Menu ul{
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    text-align: center;
+
+}
+
+.Menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.Menu ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 1rem;
+}
+
+.Menu ul li ul.dropdown li{
+    display: block;
+}
+
+.Menu ul li ul.dropdown{
+    position: absolute;
+    background-color: rgba(145, 145, 145, 0.655);
+    display:none;
+
+}
+
+.Menu ul li ul.dropdown li a {
+    color: white;
+}
+
+.Menu ul li:hover {
+    background-color: rgb(186, 184, 255);
+}
+
+.Menu ul li:hover ul.dropdown {
+    display:block;
+}
+
+.hero {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    background-image: linear-gradient( to left, pink,rgb(191, 126, 255), rgb(109, 109, 255),rgb(138, 212, 255));
+    padding: 80px;
+
+}
+
+.oc {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+.oc .ocinner{
+    background-color: rgb(189, 211, 255);
+    padding: 25px;
+    border-radius: 10px;
+    transition: all ease-out 0.3s ;
+    max-width: 550px;
+
+}
+
+.oc .ocinner .content {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.oc .ocinner .content p{
+
+    font-size: small;
+}
+
+.oc .ocinner:hover {
+    transform: rotate(6deg);
+}
+
+.updates {
+    text-align: center;
+    background-color: rgb(189, 211, 255) ;
+    padding: 50px;
+    border-radius: 15px;
+    display: grid;
+    max-width: 50%;
+    margin: 30px auto;
+
+}
+.updates h1 {
+    padding: 15px;;
+}
+
+.updates li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.updates li:last-child {
+    margin-bottom: 0;
+}
+
+.updates li a {
+    text-decoration: none;
+
+}
+
+.updates li a:hover {
+    color: rgb(174, 137, 255);
+}
+
+.footer {
+    background-color: rgb(104, 104, 104);
+    padding: 30px;
+    text-align: center;
+
+}
+
+.footer p {
+    color: white;
+}

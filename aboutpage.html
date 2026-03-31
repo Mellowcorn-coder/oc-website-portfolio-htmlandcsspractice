@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Characters Page</title>
+
+    <style>
+
+
+body{
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+*{ 
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+.Menu ul{
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    text-align: center;
+
+}
+
+.Menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.Menu ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 1rem;
+}
+
+.Menu ul li ul.dropdown li{
+    display: block;
+}
+
+.Menu ul li ul.dropdown{
+    position: absolute;
+    background-color: rgba(145, 145, 145, 0.655);
+    display:none;
+
+}
+
+.Menu ul li ul.dropdown li a {
+    color: white;
+}
+
+.Menu ul li:hover {
+    background-color: rgb(186, 184, 255);
+}
+
+.Menu ul li:hover ul.dropdown {
+    display:block;
+}
+
+.content{
+    text-align: center;
+    background-color: rgb(200, 200, 255);
+    padding: 70px;
+    line-height: 1.5;
+
+}
+
+.content p{
+    font-size: 1.5rem;
+}
+
+.hero {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    background-image: linear-gradient( to left, pink,rgb(191, 126, 255), rgb(109, 109, 255),rgb(138, 212, 255));
+    padding: 120px;
+
+}
+
+.footer {
+    background-color: rgb(104, 104, 104);
+    padding: 30px;
+    text-align: center;
+
+}
+
+.footer p {
+    color: white;
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+<div class="Menu">
+    <ul>
+        <li><a href ="index.html">Home</a></li>
+        <li><a href ="character.html"> Characters</a></li>   
+        <li><a href = "gallery.html">Gallery</a></li>
+        <li><a href = "aboutpage.html">About</a>
+            <ul class = "dropdown">
+                <li><a href = "">Our Story</a></li>
+                <li><a href = "">Team</a></li>
+                <li><a href = "">Certifications</a></li>
+            </ul>
+
+        </li>
+
+        <li><a href = "contact.html">Contact</a></li>
+        
+    </ul>
+</div>
+
+<div class="hero">
+    <h1>About</h1>
+</div>
+
+<div class="content">
+    <p>This website is a personal project that shows my artwork in a portfolio-style format.</p>
+    <p>The purpose of creating it is to practise HTML and CSS while combining my coding and illustration skills.</p>
+    <p>Each character is designed with their own unique identity and simple background, drawn in a cute anime, family-friendly style.</p>
+    <p>Visitors can view character designs and explore how the layout and presentation evolve over time.</p>
+    <p>This project is created by a diploma student in ICT with an interest in coding and AI.</p>
+    <p>The project will continue by improving designs, more detailed Characters and stronger presentation.</p>
+</div>
+
+<div class="footer">
+    <p> &copy 2026 OC Profiles. All rights reserved. </p>
+</div>
+
+</body>
+
+</html>
